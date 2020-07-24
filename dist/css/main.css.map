@@ -1,10 +1,12 @@
 {
     "version": 3,
-    "mappings": "ACAA,aAAa;AAQb,eAAe;AAIf,eAAe;AAMf,gBAAgB;AClBhB,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB",
+    "mappings": "ACAA,aAAa;AAQb,eAAe;AAIf,eAAe;AAMf,gBAAgB;AClBhB,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;ACJD,AAAA,IAAI,CAAC;EACH,gBAAgB,EFYF,KAAgB;EEX9B,QAAQ,EAAE,MAAM;CACjB;;ACHD,AAAA,SAAS,CAAC;EACR,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,KAAK;EAEZ,aAAa,EAAE,KAAK;EACpB,UAAU,EAAE,4CAAwD;CAerE;;AAbE,AAAD,eAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,MAAM;EACZ,GAAG,EAAE,KAAK;CACX;;AAEA,AAAD,sBAAc,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,KAAK;EAEb,OAAO,EAAE,EAAE;CACZ",
     "sources": [
         "../../scss/main.scss",
         "../../scss/abstracts/_variables.scss",
-        "../../scss/base/_reset.scss"
+        "../../scss/base/_reset.scss",
+        "../../scss/layout/_background.scss",
+        "../../scss/components/_abstract-graphic.scss"
     ],
     "names": [],
     "file": "main.css"

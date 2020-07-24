@@ -1,0 +1,21 @@
+.abstract {
+  height: 1000px;
+  width: 375px;
+
+  border-radius: 200px;
+  background: linear-gradient(to bottom, $gradient-one, $gradient-two);
+
+  &--full {
+    position: absolute;
+    left: -188px;
+    top: -50vh;
+  }
+
+  &--transparent {
+    position: absolute;
+    right: -188px;
+    bottom: -50vh;
+
+    opacity: 3%;
+  }
+}

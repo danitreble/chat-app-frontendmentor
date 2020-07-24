@@ -8,4 +8,30 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  background-color: white;
+  overflow: hidden;
+}
+
+.abstract {
+  height: 1000px;
+  width: 375px;
+  border-radius: 200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to bottom, #e942ff, #8838ff);
+}
+
+.abstract--full {
+  position: absolute;
+  left: -188px;
+  top: -50vh;
+}
+
+.abstract--transparent {
+  position: absolute;
+  right: -188px;
+  bottom: -50vh;
+  opacity: 3%;
+}
 /*# sourceMappingURL=main.css.map */
