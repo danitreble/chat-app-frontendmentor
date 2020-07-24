@@ -20,6 +20,7 @@ body {
   border-radius: 200px;
   background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
   background: linear-gradient(to bottom, #e942ff, #8838ff);
+  z-index: -5;
 }
 
 .abstract--full {
@@ -33,5 +34,88 @@ body {
   right: -188px;
   bottom: -50vh;
   opacity: 3%;
+}
+
+.phone {
+  position: relative;
+  background-color: #f5f3f7;
+  height: 500px;
+  width: 245px;
+  margin: 65px auto;
+  border: 10px solid white;
+  border-radius: 30px;
+  -webkit-box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 40px 5px rgba(0, 0, 0, 0.2);
+  z-index: -3;
+}
+
+.phone__notch {
+  position: absolute;
+  top: -9px;
+  left: 47px;
+  height: 28px;
+  width: 130px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.chat-header {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#8838ff), to(#e942ff));
+  background: linear-gradient(to right, #8838ff, #e942ff);
+  width: 225px;
+  height: 70px;
+  top: 0px;
+  z-index: -4;
+  border-radius: 25px 25px 5px 5px;
+}
+
+.chat-header__name {
+  position: absolute;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 0.7rem;
+  top: 30px;
+  left: 55px;
+}
+
+.chat-header__status {
+  position: absolute;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  font-size: 0.5rem;
+  top: 45px;
+  left: 55px;
+}
+
+.fas {
+  color: white;
+}
+
+.fa-chevron-left {
+  display: block;
+  font-size: 7px;
+  -webkit-transform: scale(1, 1.7);
+          transform: scale(1, 1.7);
+  margin: 40px 0px 0px 15px;
+}
+
+.avatar {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 2px solid white;
+  border-radius: 50px;
+  top: 30px;
+  left: 25px;
+}
+
+.fa-ellipsis-v {
+  position: absolute;
+  font-size: 0.6rem;
+  top: 38px;
+  right: 20px;
 }
 /*# sourceMappingURL=main.css.map */
