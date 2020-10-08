@@ -11,6 +11,11 @@
     position: absolute;
     left: -188px;
     top: -50vh;
+
+    @media only screen and (min-width: 1000px) {
+      top: -20vh;
+      left: -100px;
+    }
   }
 
   &--transparent {
@@ -18,6 +23,11 @@
     right: -188px;
     bottom: -50vh;
 
-    opacity: 3%;
+    opacity: 5%;
+
+    @media only screen and (min-width: 1000px) {
+      right: -100px;
+      bottom: -15vh;
+    }
   }
 }

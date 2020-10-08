@@ -1,6 +1,7 @@
 @import "abstracts/variables";
 
 @import "base/reset";
+@import "base/typography";
 
 @import "layout/background";
 
@@ -8,3 +9,4 @@
 @import "components/phone-frame";
 @import "components/chat-header";
 @import "components/messages";
+@import "components/paragraph";
