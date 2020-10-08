@@ -118,4 +118,181 @@ body {
   top: 38px;
   right: 20px;
 }
+
+.message {
+  position: absolute;
+  top: 80px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 0.5rem;
+  line-height: 1.5;
+  width: 60%;
+  padding: 5px 10px 5px 7px;
+}
+
+.message--left {
+  left: 10px;
+  border-radius: 12px 12px 12px 5px;
+  background-color: rgba(229, 112, 255, 0.1);
+  color: #9241c8;
+}
+
+.message--right {
+  right: 10px;
+  border-radius: 12px 12px 5px 12px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 8px 8px 5px -6px rgba(0, 0, 0, 0.05);
+          box-shadow: 8px 8px 5px -6px rgba(0, 0, 0, 0.05);
+}
+
+.message--two {
+  top: 120px;
+}
+
+.message--three {
+  top: 220px;
+}
+
+.message--four {
+  top: 260px;
+}
+
+.message--five {
+  top: 300px;
+}
+
+.message--six {
+  top: 355px;
+}
+
+.message--seven {
+  top: 398px;
+}
+
+.message--cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  height: 35px;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to right, #e942ff, #8838ff);
+}
+
+.message__circle {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  height: 12px;
+  width: 12px;
+  border-radius: 50px;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.message__cost {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.message__info {
+  padding-top: 2px;
+  font-weight: 200;
+}
+
+.message__info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.image__container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 135px;
+  top: 170px;
+  right: 10px;
+}
+
+.input {
+  border: none;
+  margin-left: 20px;
+  width: 95px;
+}
+
+.input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.6rem;
+}
+
+.input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.6rem;
+}
+
+.input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.6rem;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 0.6rem;
+}
+
+.input__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: white;
+  width: 205px;
+  height: 30px;
+  border-radius: 20px;
+  position: absolute;
+  top: 440px;
+  left: 10px;
+}
+
+.input__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+.input__arrow {
+  font-size: 0.75rem;
+}
 /*# sourceMappingURL=main.css.map */

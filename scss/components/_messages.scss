@@ -1,0 +1,149 @@
+.message {
+  position: absolute;
+
+  top: 80px;
+  
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 0.5rem;
+  line-height: 1.5;
+
+  width: 60%;
+  padding: 5px 10px 5px 7px;
+
+  &--left {
+    left: 10px;
+
+    border-radius: 12px 12px 12px 5px;
+    background-color: rgba($secondary-four, .1);
+    color: $chat-left-color; 
+  }
+  
+  &--right {
+    right: 10px;
+
+    border-radius: 12px 12px 5px 12px;
+    background-color: $secondary-one;
+    color: rgba(black, 0.7);
+    box-shadow: 8px 8px 5px -6px rgba(black, 0.05);
+
+  }
+
+  &--two {
+    top: 120px;
+  }
+
+  &--three {
+    top: 220px;
+  }
+  
+  &--four {
+    top: 260px;
+  }
+
+  &--five {
+    top: 300px;
+  }
+
+  &--six {
+    top: 355px;
+  }
+
+  &--seven {
+    top: 398px;
+  }
+
+  
+  &--cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 70%;
+    height: 35px;
+    color: white;
+
+    background: linear-gradient(to right, $gradient-one, $gradient-two);
+  }
+
+  &__circle {
+    border: 1px solid rgba(white, 0.5);
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    margin-left: 2px;
+    margin-right: 10px;
+  }
+
+  &__cost {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  &__info {
+    padding-top: 2px;
+    font-weight: 200;
+  }
+
+  &__info-container {
+    display: flex;
+  }
+  
+}
+
+.image {
+  width: 40px;
+  border-radius: 10px;
+
+  &__container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+    width: 135px;
+    top: 170px;
+    right: 10px;
+  }
+}
+
+.input {
+  border: none;
+  margin-left: 20px;
+  width: 95px;
+    
+  &::placeholder {
+    color: rgba(black, 0.3);
+    font-size: 0.6rem;
+  }
+
+  &__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 205px;
+    height: 30px;
+
+    border-radius: 20px;
+
+    position: absolute;
+    top: 440px;
+    left: 10px;
+
+  }
+
+  &__send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+
+  &__arrow {
+    font-size: 0.75rem;
+  }
+}
